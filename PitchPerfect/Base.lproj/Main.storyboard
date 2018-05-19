@@ -80,67 +80,63 @@
                                 <rect key="frame" x="16" y="32" width="448" height="200"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="FWx-4g-N5b">
-                                        <rect key="frame" x="0.0" y="0.0" width="149.5" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="448" height="66.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2I7-IH-dHi" userLabel="Slow Button">
-                                                <rect key="frame" x="0.0" y="0.0" width="149.5" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224" height="66.5"/>
                                                 <state key="normal" image="Slow"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Eke-Ey-L8T" eventType="touchUpInside" id="e6w-UX-VAU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foK-aX-J99" userLabel="Fast Button">
-                                                <rect key="frame" x="0.0" y="100" width="149.5" height="100"/>
+                                                <rect key="frame" x="224" y="0.0" width="224" height="66.5"/>
                                                 <state key="normal" image="Fast"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Eke-Ey-L8T" eventType="touchUpInside" id="kZR-ZM-7pg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <variation key="heightClass=compact" axis="vertical"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="k4X-Zz-huT">
-                                        <rect key="frame" x="149.5" y="0.0" width="149" height="200"/>
+                                        <rect key="frame" x="0.0" y="66.5" width="448" height="67"/>
                                         <subviews>
                                             <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCr-ZI-mdg" userLabel="High Pitch Button">
-                                                <rect key="frame" x="0.0" y="0.0" width="149" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224" height="67"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Eke-Ey-L8T" eventType="touchUpInside" id="lFn-6h-VkV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Un-DJ-7Zq" userLabel="Low Pitch Button">
-                                                <rect key="frame" x="0.0" y="100" width="149" height="100"/>
+                                                <rect key="frame" x="224" y="0.0" width="224" height="67"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Eke-Ey-L8T" eventType="touchUpInside" id="K2e-14-DEi"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <variation key="heightClass=compact" axis="vertical"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="n0V-wp-91f">
-                                        <rect key="frame" x="298.5" y="0.0" width="149.5" height="200"/>
+                                        <rect key="frame" x="0.0" y="133.5" width="448" height="66.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSo-4V-8oO" userLabel="Echo Button">
-                                                <rect key="frame" x="0.0" y="0.0" width="149.5" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224" height="66.5"/>
                                                 <state key="normal" image="Echo"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Eke-Ey-L8T" eventType="touchUpInside" id="tva-WD-NfS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3M-4p-dx2" userLabel="Reverb Button">
-                                                <rect key="frame" x="0.0" y="100" width="149.5" height="100"/>
+                                                <rect key="frame" x="224" y="0.0" width="224" height="66.5"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Eke-Ey-L8T" eventType="touchUpInside" id="GTj-zQ-cAG"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <variation key="heightClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
-                                <variation key="heightClass=compact" axis="horizontal"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OA-A6-4zD" userLabel="Stop Button">
                                 <rect key="frame" x="208" y="240" width="64" height="64"/>
